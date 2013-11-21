@@ -34,10 +34,7 @@ BOARD_SEPOLICY_DIRS := \
 
 BOARD_SEPOLICY_UNION := \
     device.te \
-    domain.te \
-    file.te \
     file_contexts \
-    rild.te \
     wimax.te
 
 # Notification LED
