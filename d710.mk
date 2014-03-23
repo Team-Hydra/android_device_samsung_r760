@@ -113,6 +113,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     net.connectivity.type=CDMA1 \
     mobiledata.interfaces=ppp0,wlan0,uwbr0 \
     ro.telephony.ril_class=SamsungCDMAv6RIL \
+    ro.telephony.ril.v3=skipdatareg
     ro.ril.samsung_cdma=true \
     ro.carrier=Sprint
 
