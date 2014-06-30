@@ -1,1 +1,2 @@
 add_lunch_combo cm_d710-userdebug
+add_lunch_combo cm_r760-userdebug
