@@ -57,11 +57,9 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     sensors.exynos4
 
-# WIMAX
+# Angry GPS
 PRODUCT_PACKAGES += \
-    AngryGPS \
-    SprintMenu \
-    SystemUpdateUI
+    AngryGPS
 
 #    WiMAXSettings \
 #    WiMAXHiddenMenu \
