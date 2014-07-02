@@ -1,4 +1,5 @@
-# Copyright (C) 2010 The Android Open Source Project
+#
+# Copyright (C) 2011 The Android Open-Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -11,12 +12,9 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
+#
 
-DEVICE_PACKAGE_OVERLAYS := \
-	device/samsung/r760/overlay \
-	device/samsung/d710/overlay \
-	device/samsung/galaxys2-common/overlay
+# This variable is set first, so it can be overridden
+# by BoardConfigVendor.mk
 
-$(call inherit-product, device/samsung/d710/device.mk)
-
-TARGET_OTA_ASSERT_DEVICE := galaxys2usc,SCH-R760,r760,smdk4210
+include device/samsung/d710/BoardConfig.mk
