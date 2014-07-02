@@ -13,9 +13,9 @@
 # limitations under the License.
 
 DEVICE_PACKAGE_OVERLAYS := \
-	device/samsung/r760/overlay \
-	device/samsung/d710/overlay \
-	device/samsung/galaxys2-common/overlay
+    device/samsung/r760/overlay \
+    device/samsung/d710/overlay \
+    device/samsung/galaxys2-common/overlay
 
 $(call inherit-product, device/samsung/d710/device.mk)
 

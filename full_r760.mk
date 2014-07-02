@@ -28,6 +28,6 @@ $(call inherit-product, device/samsung/r760/r760.mk)
 PRODUCT_NAME := full_r760
 PRODUCT_DEVICE := r760
 PRODUCT_BRAND := samsung
-PRODUCT_MANUFACTURER := samsung
+PRODUCT_MANUFACTURER := Samsung
 PRODUCT_MODEL := SCH-R760
 
