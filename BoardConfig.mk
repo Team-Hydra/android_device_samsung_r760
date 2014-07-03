@@ -18,3 +18,5 @@
 # by BoardConfigVendor.mk
 
 include device/samsung/d710/BoardConfig.mk
+
+TARGET_OTA_ASSERT_DEVICE := galaxys2usc,SCH-R760,r760,smdk4210

@@ -12,9 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-$(call inherit-product, device/samsung/d710/d710.mk)
+ifneq ($(filter r760,$(TARGET_DEVICE)),)
+    include $(all-subdir-makefiles)
+endif
 
-DEVICE_PACKAGE_OVERLAYS := \
-    device/samsung/r760/overlay \
-    device/samsung/d710/overlay \
-    device/samsung/galaxys2-common/overlay
+
